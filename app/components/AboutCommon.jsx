@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const AboutCommon = () => {
+const AboutCommon = ({aboutH2,aboutP }) => {
   return (
     <>
 
@@ -11,9 +11,9 @@ const AboutCommon = () => {
 
           <div className="w-[48px] h-[48px] bg-[#2e7d322c] flex justify-center items-center rounded-[12px]"> <Image src={''} alt="visImg" width={30} /> </div>
 
-          <h3 className='text-[20px] font-semibold font-main text-[#09231E] mt-[48px] mb-[16px]'>Sustainability</h3>
+          <h3 className='text-[20px] font-semibold font-main text-[#09231E] mt-[48px] mb-[16px]'>{aboutH2}</h3>
           <div className='w-[206px] '>
-          <h4 className='text-[16px] font-normal font-main text-[#4A5565]'>Eco-friendly practices for a better tomorrow</h4>
+          <h4 className='text-[16px] font-normal font-main text-[#4A5565]'>{aboutP}</h4>
 
           </div>
 

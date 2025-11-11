@@ -60,7 +60,9 @@ const page = () => {
       </section>
 
       <section id="section-2 Antor" className="bg-[#F9FAFB] py-[100px]">
-        <div>
+        <div className="container ">
+
+        <div className="text-center">
           <h2 className="text-[48px] font-bold font-main text-[#09231E]">
             Our Core Values
           </h2>
@@ -69,24 +71,23 @@ const page = () => {
           </h5>
         </div>
 
-        <div className="container mt-[]">
 
             <div className="flex justify-center items-center gap-[24px] my-[80px]">
 
-            <AboutCommon />
-            <AboutCommon />
-            <AboutCommon />
-            <AboutCommon />
+            <AboutCommon  aboutH2={'Sustainability'} aboutP={'Eco-friendly practices for a better tomorrow'} />
+            <AboutCommon aboutH2={'Timely Delivery'} aboutP={'Meeting deadlines without compromise'} />
+            <AboutCommon aboutH2={'Quality Assurance'} aboutP={'Excellence in every detail'} />
+            <AboutCommon aboutH2={'Expert Team'} aboutP={'Skilled professionals at your service'} />
 
 
             </div>
 
             <div className="flex items-center justify-center gap-[24px]">
                 
-            <AboutCommon />
-            <AboutCommon />
-            <AboutCommon />
-            <AboutCommon />
+            <AboutCommon aboutH2={'Innovation '} aboutP={'Embracing new technologies and construction methods.'} />
+            <AboutCommon aboutH2={'Safety'} aboutP={'Prioritizing the well-being of our team and communities.'} />
+            <AboutCommon aboutH2={'Collaboration'} aboutP={'Working together with clients and partners for success.'} />
+            <AboutCommon aboutH2={'Integrity'} aboutP={'Operating with honesty and transparency in every project.'} />
 
             </div>
 
