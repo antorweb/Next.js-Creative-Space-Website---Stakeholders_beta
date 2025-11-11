@@ -13,3 +13,26 @@
 @theme{
   --font-main : "Open Sans", sans-serif;
 }
+
+#aboutBanner{
+
+  background: url('../public/iamges/aboutBanner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+
+
+#aboutContainer{
+
+    background: url('../public/iamges/aboutContainer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+
+}

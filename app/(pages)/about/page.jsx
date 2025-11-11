@@ -3,11 +3,47 @@ import React from "react";
 import AboutImg from "../../../public/iamges/AboutStoryImg.png";
 import misImg from "../../../public/iamges/misImg.png";
 import visImg from "../../../public/iamges/visImg.png";
+
+
+import Img1 from "../../../public/iamges/Icon1.png";
+import Img2 from "../../../public/iamges/Icon2.png";
+import Img3 from "../../../public/iamges/Icon3.png";
+import Img4 from "../../../public/iamges/Icon4.png";
+import Img5 from "../../../public/iamges/Icon5.png";
+import Img6 from "../../../public/iamges/Icon6.png";
+import Img7 from "../../../public/iamges/Icon7.png";
+import Img8 from "../../../public/iamges/Icon8.png";
+
 import AboutCommon from "@/app/components/AboutCommon";
 
 const page = () => {
   return (
     <>
+
+    <div id="banner-section Antor" >
+
+        <div id="aboutBanner" className="w-full h-[550px]">
+            
+        <div id="aboutContainer" className="w-full h-[550px] flex justify-center items-center"> 
+
+
+
+            <div>
+                
+                <h2 className="text-[48px] w-[750px] text-center font-bold font-main text-white">We Build More Than Structures  We Build Trust</h2>
+
+                <div className="w-[752px] mt-[12px] text-center"><h4 className="text-[18px] font-normal font-main text-white">BuildTech was founded with a mission to create modern, sustainable construction solutions. From residential homes to large-scale industrial projects, we've consistently delivered with quality, safety, and integrity.</h4></div>
+            </div>
+
+
+
+
+        </div>
+
+             </div>
+
+    </div>
+
       <section id="section-1 Antor" className="py-[120px]">
         <div className="container">
           {/* ------------------ vision/mission contain */}
@@ -74,20 +110,20 @@ const page = () => {
 
             <div className="flex justify-center items-center gap-[24px] my-[80px]">
 
-            <AboutCommon  aboutH2={'Sustainability'} aboutP={'Eco-friendly practices for a better tomorrow'} />
-            <AboutCommon aboutH2={'Timely Delivery'} aboutP={'Meeting deadlines without compromise'} />
-            <AboutCommon aboutH2={'Quality Assurance'} aboutP={'Excellence in every detail'} />
-            <AboutCommon aboutH2={'Expert Team'} aboutP={'Skilled professionals at your service'} />
+            <AboutCommon aboutImg={Img1}  aboutH2={'Sustainability'} aboutP={'Eco-friendly practices for a better tomorrow'} />
+            <AboutCommon aboutImg={Img2} aboutH2={'Timely Delivery'} aboutP={'Meeting deadlines without compromise'} />
+            <AboutCommon aboutImg={Img3} aboutH2={'Quality Assurance'} aboutP={'Excellence in every detail'} />
+            <AboutCommon aboutImg={Img4} aboutH2={'Expert Team'} aboutP={'Skilled professionals at your service'} />
 
 
             </div>
 
             <div className="flex items-center justify-center gap-[24px]">
                 
-            <AboutCommon aboutH2={'Innovation '} aboutP={'Embracing new technologies and construction methods.'} />
-            <AboutCommon aboutH2={'Safety'} aboutP={'Prioritizing the well-being of our team and communities.'} />
-            <AboutCommon aboutH2={'Collaboration'} aboutP={'Working together with clients and partners for success.'} />
-            <AboutCommon aboutH2={'Integrity'} aboutP={'Operating with honesty and transparency in every project.'} />
+            <AboutCommon aboutImg={Img5} aboutH2={'Innovation '} aboutP={'Embracing new technologies and construction methods.'} />
+            <AboutCommon aboutImg={Img6} aboutH2={'Safety'} aboutP={'Prioritizing the well-being of our team and communities.'} />
+            <AboutCommon aboutImg={Img7} aboutH2={'Collaboration'} aboutP={'Working together with clients and partners for success.'} />
+            <AboutCommon aboutImg={Img8} aboutH2={'Integrity'} aboutP={'Operating with honesty and transparency in every project.'} />
 
             </div>
 

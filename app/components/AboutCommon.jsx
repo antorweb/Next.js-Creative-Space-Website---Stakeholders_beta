@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const AboutCommon = ({aboutH2,aboutP }) => {
+const AboutCommon = ({aboutH2,aboutP,aboutImg }) => {
   return (
     <>
 
@@ -9,7 +9,7 @@ const AboutCommon = ({aboutH2,aboutP }) => {
     <div className='w-[312px] h-[252px] rounded-[16px] bg-white shadow'>
         <div className='p-[32px]'>
 
-          <div className="w-[48px] h-[48px] bg-[#2e7d322c] flex justify-center items-center rounded-[12px]"> <Image src={''} alt="visImg" width={30} /> </div>
+          <div className="w-[48px] h-[48px] bg-[#2e7d322c] flex justify-center items-center rounded-[12px]"> <Image src={aboutImg} alt="visImg" width={30} /> </div>
 
           <h3 className='text-[20px] font-semibold font-main text-[#09231E] mt-[48px] mb-[16px]'>{aboutH2}</h3>
           <div className='w-[206px] '>
