@@ -3,6 +3,7 @@ import React from "react";
 import AboutImg from "../../../public/iamges/AboutStoryImg.png";
 import misImg from "../../../public/iamges/misImg.png";
 import visImg from "../../../public/iamges/visImg.png";
+import AboutCommon from "@/app/components/AboutCommon";
 
 const page = () => {
   return (
@@ -68,7 +69,19 @@ const page = () => {
           </h5>
         </div>
 
-        <div className="container"></div>
+        <div className="container">
+
+            <AboutCommon />
+            
+
+
+
+
+
+
+
+
+        </div>
       </section>
 
       <section id="section-3 Antor" className="py-[120px]">
