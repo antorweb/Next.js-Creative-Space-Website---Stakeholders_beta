@@ -59,7 +59,7 @@ const page = () => {
         </div>
       </section>
 
-      <section id="section-2 Antor" className="bg-[#F9FAFB]">
+      <section id="section-2 Antor" className="bg-[#F9FAFB] py-[100px]">
         <div>
           <h2 className="text-[48px] font-bold font-main text-[#09231E]">
             Our Core Values
@@ -69,10 +69,26 @@ const page = () => {
           </h5>
         </div>
 
-        <div className="container">
+        <div className="container mt-[]">
+
+            <div className="flex justify-center items-center gap-[24px] my-[80px]">
 
             <AboutCommon />
-            
+            <AboutCommon />
+            <AboutCommon />
+            <AboutCommon />
+
+
+            </div>
+
+            <div className="flex items-center justify-center gap-[24px]">
+                
+            <AboutCommon />
+            <AboutCommon />
+            <AboutCommon />
+            <AboutCommon />
+
+            </div>
 
 
 
