@@ -1,4 +1,5 @@
 import React from 'react'
+import MapComponent from './common/MapComponent'
 
 const ContactMap = () => {
   return (
@@ -7,10 +8,12 @@ const ContactMap = () => {
 
     <section className='bg-[#F9FAFB] py-[100px]'>
         <div className="container">
-            <div>
+            <div className='text-center mb-[80px]'>
                 <h2 className='text-[48px] font-bold font-main text-[#09231E]'>Visit Our Office</h2>
                 <h5 className='text-[18px] font-normal font-main text-[#4A5565]'>Stop by for a consultation or project discussion</h5>
             </div>
+            <MapComponent />
+
         </div>
     </section>
 

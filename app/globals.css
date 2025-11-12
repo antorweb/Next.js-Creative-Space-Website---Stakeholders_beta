@@ -32,7 +32,31 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
 
 
+#projectCommon{
+
+    background: url('../public/iamges/projectImg1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#projectCommon2{
+      background: url('../public/iamges/projectImg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+#projectCommon3{
+      background: url('../public//iamges/projectImg3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
 }

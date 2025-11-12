@@ -14,34 +14,16 @@ import Img6 from "../../../public/iamges/Icon6.png";
 import Img7 from "../../../public/iamges/Icon7.png";
 import Img8 from "../../../public/iamges/Icon8.png";
 
-import AboutCommon from "@/app/components/AboutCommon";
+import AboutCommon from "@/app/components/common/AboutCommon";
+import BannerCommon from "@/app/components/common/BannerCommon";
 
 const page = () => {
   return (
     <>
-      <div id="banner-section Antor">
-        <div id="aboutBanner" className="w-full h-[400px] md:h-[550px]">
-          <div
-            id="aboutContainer"
-            className="w-full h-full flex justify-center items-center px-4 md:px-0"
-          >
-            <div className="text-center">
-              <h2 className="text-[32px] md:text-[48px] w-full md:w-[750px] mx-auto font-bold font-main text-white">
-                We Build More Than Structures  We Build Trust
-              </h2>
-              <div className="mt-4 md:mt-[12px] w-full md:w-[752px] mx-auto">
-                <h4 className="text-[16px] md:text-[18px] font-normal font-main text-white">
-                  BuildTech was founded with a mission to create modern,
-                  sustainable construction solutions. From residential homes to
-                  large-scale industrial projects, we've consistently delivered
-                  with quality, safety, and integrity.
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
+    <BannerCommon bannerH2={'We Build More Than Structures  We Build Trust'} bannerP={"BuildTech was founded with a mission to create modern, sustainable construction solutions. From residential homes to large-scale industrial projects, we've consistently delivered with quality, safety, and integrity."} />
+
+      
       <section id="section-1 Antor" className="py-[80px] md:py-[120px] px-4">
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row justify-center items-center gap-[24px]">
