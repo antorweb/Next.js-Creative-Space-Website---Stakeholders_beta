@@ -10,7 +10,7 @@ const page = () => {
 
     <section id='contact' >
         <div className="container">
-            <div>
+            <div className='flex'>
 
             {/* -------------- left-side Contact details */}
 
@@ -66,14 +66,19 @@ const page = () => {
                 </div>
 
 
-                <div className='w-[536px] shadow rounded-[16px]'>
+                <div className='w-[536px] shadow  rounded-[16px]'>
+
+                    <div className='p-[24px] flex items-center gap-[10px]'>
+
 
                     <div className='w-[48px] h-[48px] rounded-full bg-[#2e7d3231]' ></div>
 
                     <div>
                         <h4 className='text-[18px] font-semibold font-main text-[#09231E]'>Business Hours</h4>
-                        <p className='text-[14px] font-normal font-main text-[#4A5565]'>Mon-Sat, 9:00 AM – 6:00 PM</p>
+                        <p className='text-[14px] mt-[4px] font-normal font-main text-[#4A5565]'>Mon-Sat, 9:00 AM – 6:00 PM</p>
                     </div>
+                    </div>
+
 
                 </div>
 
