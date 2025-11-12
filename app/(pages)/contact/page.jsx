@@ -60,13 +60,20 @@ const page = () => {
                 {/* -------- heading */}
                 <div>
 
-                    <h3>Get in Touch</h3>
-                    <div><h4>Have questions about our services or want to discuss a project? We're here to help. Contact us through any of the methods below and our team will respond as soon as possible.</h4></div>
+                    <h3 className='text-[32px] font-semibold font-main text-[#09231E]'>Get in Touch</h3>
+                    <div className='w-[536px]'><h4 className='text-[18px] font-normal font-main text-[#4A5565]'>Have questions about our services or want to discuss a project? We're here to help. Contact us through any of the methods below and our team will respond as soon as possible.</h4></div>
 
                 </div>
 
 
                 <div className='w-[536px] shadow rounded-[16px]'>
+
+                    <div className='w-[48px] h-[48px] rounded-full bg-[#2e7d3231]' ></div>
+
+                    <div>
+                        <h4 className='text-[18px] font-semibold font-main text-[#09231E]'>Business Hours</h4>
+                        <p className='text-[14px] font-normal font-main text-[#4A5565]'>Mon-Sat, 9:00 AM – 6:00 PM</p>
+                    </div>
 
                 </div>
 
