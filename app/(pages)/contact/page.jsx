@@ -1,5 +1,8 @@
 import React from 'react'
 
+import { LuSend } from "react-icons/lu";
+
+
 const page = () => {
   return (
     <>
@@ -43,7 +46,7 @@ const page = () => {
 
                 </div>
 
-                <button className='w-[584px] bg-[#2E7D32]'>Send Message</button>
+                <button className='w-[584px] bg-[#2E7D32] text-[14px] font-medium font-main flex justify-center items-center gap-[10px]  text-white'>Send Message <LuSend className='text-[16px] text-white' /></button>
 
             </div>
 
