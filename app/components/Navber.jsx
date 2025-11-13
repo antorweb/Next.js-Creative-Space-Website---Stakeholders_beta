@@ -29,7 +29,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      href={"/"}
+                      href={"/about"}
                       className="text-[16px] font-normal font-main text-primary hover:text-[#2E7D32] duration-300"
                     >
                       About
@@ -37,7 +37,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      href={"/"}
+                      href={"/services"}
                       className="text-[16px] font-normal font-main text-primary hover:text-[#2E7D32] duration-300"
                     >
                       Services
@@ -45,7 +45,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      href={"/"}
+                      href={"/Project"}
                       className="text-[16px] font-normal font-main text-primary hover:text-[#2E7D32] duration-300"
                     >
                       Projects
@@ -53,7 +53,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      href={"/"}
+                      href={"/contact"}
                       className="text-[16px] font-normal font-main text-primary hover:text-[#2E7D32] duration-300"
                     >
                       Contact
