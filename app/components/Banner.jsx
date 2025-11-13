@@ -38,23 +38,26 @@ const Banner = () => {
                 </button>
               </div>
 
-              <div>
-                <div className="w-[370px]  bg-[#ffffff36] flex items-center justify-center gap-2.5 py-3 rounded-full ">
-                  {" "}
-                  <span className="w-[48px] h-[48px] inline-block bg-[#ffffff50] drop-shadow-2xl rounded-full "></span>{" "}
+              <div className="flex mt-[240px]  gap-[20px]">
+                <div className="w-[370px] p-[20px] bg-[#ffffff19] bg-blur flex items-center  gap-2.5 py-3 rounded-[16px] ">
+                
+                  <span className="w-[48px] h-[48px] inline-block bg-[#ffffff50] drop-shadow-2xl rounded-full "></span>
+                  <div className="">
+                    <p className="text-[14px] flex justify-start mb-[4px] font-normal font-main text-[#D1D5DC]">Contact Us</p>
+                    <h5 className="text-[16px] font-semibold font-main text-white">+880 1234 567 890</h5>
+                  </div>
+                </div>
+                    <div className="w-[370px] p-[20px]  bg-[#ffffff36] flex items-center gap-2.5 py-3 rounded-[16px] ">
+                 
+                  <span className="w-[48px] h-[48px] inline-block bg-[#ffffff50] drop-shadow-2xl rounded-full "></span>
                   <div>
-                    <p>Contact Us</p>
-                    <h5>+880 1234 567 890</h5>
+                    <p className="text-[14px] flex justify-start mb-[4px] font-normal font-main text-[#D1D5DC]">Contact Us</p>
+                    <h5 className="text-[16px] font-semibold font-main text-white">+880 1234 567 890</h5>
                   </div>
                 </div>
 
-                <div className="w-[370px]  bg-[#ffffff36] flex items-center justify-center gap-2.5 py-3 rounded-full ">
-                  {" "}
-                  <span className="w-4 h-4 inline-block bg-[#ffffff50] drop-shadow-2xl rounded-full "></span>{" "}
-                  <h2 className="text-[14px] font-medium font-main  text-white">
-                    Your Vision, Our Expertise
-                  </h2>{" "}
-                </div>
+
+            
               </div>
             </div>
           </div>
