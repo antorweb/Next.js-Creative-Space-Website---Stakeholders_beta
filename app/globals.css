@@ -60,3 +60,21 @@
   background-position: center;
 
 }
+
+#AntorBanner{
+      background: url('../public//iamges/bannerImages.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+#bannerContain{
+      background: url('../public//iamges/BannerContainer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
