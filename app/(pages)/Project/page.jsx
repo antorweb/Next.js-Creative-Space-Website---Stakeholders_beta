@@ -1,3 +1,4 @@
+import BannerCommon from '@/app/components/common/BannerCommon'
 import ProjectCommon from '@/app/components/common/ProjectCommon'
 import React from 'react'
 
@@ -8,6 +9,7 @@ const page = () => {
 
 
     <section id='project'>
+        <BannerCommon bannerH2={'Our Work Speaks for Itself'} bannerP={'A glimpse of our most recent and impactful construction projects'} />
         <div className="container">
 
             <div className='flex flex-wrap gap-[24px] py-[120px] justify-center  items-center'>

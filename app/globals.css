@@ -78,3 +78,12 @@
 
 }
 
+
+#ServicesImage{
+      background: url('../public/iamges/serviceImg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+

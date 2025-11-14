@@ -1,6 +1,6 @@
-import BannerCommon from '@/app/components/common/BannerCommon';
-import ContactDetails from '@/app/components/ContactDetails';
-import ContactMap from '@/app/components/ContactMap';
+import BannerCommon from '../../components/common/BannerCommon';
+import ContactDetails from '../../components/contact/ContactDetails';
+import ContactMap from '../../components/contact/ContactMap';
 import Link from 'next/link';
 import React from 'react'
 
