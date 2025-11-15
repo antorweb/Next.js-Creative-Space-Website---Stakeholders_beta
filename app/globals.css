@@ -12,6 +12,8 @@
 
 @theme{
   --font-main : "Open Sans", sans-serif;
+
+  --color-main : #09231E;
 }
 
 #aboutBanner{

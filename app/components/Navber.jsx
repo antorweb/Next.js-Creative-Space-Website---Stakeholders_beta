@@ -62,7 +62,7 @@ const Navbar = () => {
                 </ul>
               </div>
 
-              <button className="w-[129px] bg-[#2E7D32] text-[14px] font-medium font-main text-white py-2 rounded-full">
+              <button className="w-[129px] bg-[#2E7D32] hover:bg-transparent hover:border hover:text-[#2E7D32] border-[#2E7D32] duration-300 text-[14px] font-medium font-main text-white py-2 rounded-full">
                 Get a Quote
               </button>
             </div>
