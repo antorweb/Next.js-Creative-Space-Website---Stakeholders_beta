@@ -15,15 +15,18 @@ const SustainableSpaces = () => {
             Spaces for the Future
           </h1>
 
-          <p className="text-[18px] font-bold font-main text-[#4A5565]">
+<div className="w-[560px] mt-[24px] mb-[48px]">
+
+          <p className="text-[18px] font-normal font-main text-[#4A5565]">
             BuildTech is dedicated to delivering exceptional construction
             solutions that blend innovation, sustainability, and craftsmanship.
             Our approach combines cutting-edge techniques with environmentally
             conscious practices to create spaces that inspire and endure.
           </p>
+</div>
 
           {/* BUTTON */}
-          <button className="mt-6 flex items-center gap-2 bg-[#0A4D25] hover:bg-[#0c5e2e] text-white font-medium px-6 py-2 rounded-full transition-all">
+          <button className=" flex items-center gap-2 bg-[#2E7D32] hover:bg-[#0c5e2e] text-[14px] font-medium font-main text-white py-[16px] px-[24px] rounded-full transition-all">
             Discover Our Story <FaArrowRight size={14} />
           </button>
         </div>
