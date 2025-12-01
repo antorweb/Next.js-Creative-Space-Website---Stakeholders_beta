@@ -10,12 +10,12 @@ const SustainableSpaces = () => {
 
         {/* LEFT CONTENT */}
         <div>
-          <h1 className="text-3xl lg:text-4xl font-bold text-[#0A2E1F] leading-snug">
+          <h1 className="text-[48px] font-bold font-main text-[#09231E]">
             Crafting Sustainable <br />
             Spaces for the Future
           </h1>
 
-          <p className="text-gray-700 mt-5 leading-relaxed">
+          <p className="text-[18px] font-bold font-main text-[#4A5565]">
             BuildTech is dedicated to delivering exceptional construction
             solutions that blend innovation, sustainability, and craftsmanship.
             Our approach combines cutting-edge techniques with environmentally
@@ -40,7 +40,7 @@ const SustainableSpaces = () => {
           {/* BOTTOM LEFT IMAGE */}
           <div className="relative w-full h-40 rounded-lg overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=800"
+              src=""
               alt="Building 2"
               fill
               className="object-cover"
@@ -50,7 +50,7 @@ const SustainableSpaces = () => {
           {/* BOTTOM RIGHT IMAGE */}
           <div className="relative w-full h-40 rounded-lg overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?w=800"
+              src=""
               alt="Building 3"
               fill
               className="object-cover"
