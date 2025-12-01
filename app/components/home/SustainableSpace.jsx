@@ -3,9 +3,13 @@
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 
+import rightImg1 from '../../../public/iamges/rightImg1.png'
+import rightImg2 from '../../../public/iamges/rightImg2.png'
+import rightImg3 from '../../../public/iamges/rightImg3.png'
+
 const SustainableSpaces = () => {
   return (
-    <section className="w-full py-16 px-4 lg:px-20 bg-white">
+    <section className="w-full py-[120px] bg-white">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
 
         {/* LEFT CONTENT */}
@@ -36,14 +40,14 @@ const SustainableSpaces = () => {
           {/* BIG TOP IMAGE */}
           <div className="col-span-2">
             <div className="relative w-full h-64 rounded-lg overflow-hidden">
-              <Image  src=""       alt="Top Building"    fill  className="object-cover"   />
+              <Image  src={rightImg1}       alt="Top Building"    fill  className="object-cover"   />
             </div>
           </div>
 
           {/* BOTTOM LEFT IMAGE */}
           <div className="relative w-full h-40 rounded-lg overflow-hidden">
             <Image
-              src=""
+              src={rightImg2}
               alt="Building 2"
               fill
               className="object-cover"
@@ -53,7 +57,7 @@ const SustainableSpaces = () => {
           {/* BOTTOM RIGHT IMAGE */}
           <div className="relative w-full h-40 rounded-lg overflow-hidden">
             <Image
-              src=""
+              src={rightImg3}
               alt="Building 3"
               fill
               className="object-cover"
